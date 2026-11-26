@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: sensor_market_prices
+    columns:
+      - name: CONTAINER_ID
+        data_tests:
+          - not_null
+
+      - name: COMMODITY
+        data_tests:
+          - not_null
+
+      - name: MARKET
+        data_tests:
+          - not_null
+
+      - name: PRICE_PER_UNIT
+        data_tests:
+          - not_null
+
+  - name: route_analytics
+    columns:
+      - name: ROUTE_DATE
+        data_tests:
+          - not_null
+
+      - name: ORIGIN
+        data_tests:
+          - not_null
+
+      - name: DESTINATION
+        data_tests:
+          - not_null
+
+      - name: COMMODITY
+        data_tests:
+          - not_null

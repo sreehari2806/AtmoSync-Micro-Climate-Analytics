@@ -1,0 +1,36 @@
+WITH source_data AS (
+
+    SELECT *
+    FROM ATMOSYNC_DB.RAW.SENSOR_READINGS_RAW
+
+),
+
+cleaned_data AS (
+
+    SELECT
+        TIMESTAMP,
+        CONTAINER_ID,
+        COMMODITY,
+        TEMPERATURE,
+        HUMIDITY,
+        VIBRATION,
+        TEMPERATURE_STATUS,
+        HUMIDITY_STATUS,
+        CONTAINER_STATUS,
+        INGESTED_AT
+
+    FROM source_data
+
+    WHERE
+        TIMESTAMP IS NOT NULL
+        AND CONTAINER_ID IS NOT NULL
+        AND COMMODITY IS NOT NULL
+        AND TEMPERATURE IS NOT NULL
+        AND HUMIDITY IS NOT NULL
+        AND VIBRATION IS NOT NULL
+
+)
+
+SELECT *
+FROM cleaned_data
+

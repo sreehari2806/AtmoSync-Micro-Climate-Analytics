@@ -1,0 +1,16 @@
+market,commodity,price_per_unit,unit,currency,price_date
+Kochi,Tomato,40,kg,INR,2026-11-16
+Kochi,Banana,60,kg,INR,2026-11-16
+Kochi,Mango,100,kg,INR,2026-11-16
+Kochi,Fish,250,kg,INR,2026-11-16
+Kochi,Milk,60,litre,INR,2026-11-16
+Bengaluru,Tomato,50,kg,INR,2026-11-16
+Bengaluru,Banana,70,kg,INR,2026-11-16
+Bengaluru,Mango,120,kg,INR,2026-11-16
+Bengaluru,Fish,280,kg,INR,2026-11-16
+Bengaluru,Milk,65,litre,INR,2026-11-16
+Chennai,Tomato,45,kg,INR,2026-11-16
+Chennai,Banana,55,kg,INR,2026-11-16
+Chennai,Mango,110,kg,INR,2026-11-16
+Chennai,Fish,260,kg,INR,2026-11-16
+Chennai,Milk,58,litre,INR,2026-11-16

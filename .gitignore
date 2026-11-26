@@ -236,3 +236,8 @@ credentials/
 *.sqlite
 *.db
 .DS_Store
+
+# dbt generated files
+atmosync_dbt/logs/
+atmosync_dbt/target/
+atmosync_dbt/dbt_packages/

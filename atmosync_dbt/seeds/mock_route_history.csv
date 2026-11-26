@@ -1,0 +1,11 @@
+route_id,container_id,commodity,origin,destination,distance_km,estimated_travel_hours,route_date
+R001,C001,Tomato,Kochi,Bengaluru,550,10,2026-11-14
+R002,C002,Banana,Kochi,Chennai,690,12,2026-11-14
+R003,C003,Mango,Bengaluru,Chennai,350,7,2026-11-15
+R004,C004,Fish,Kochi,Bengaluru,550,10,2026-11-15
+R005,C005,Milk,Kochi,Chennai,690,12,2026-11-15
+R006,C001,Tomato,Kochi,Chennai,690,12,2026-11-16
+R007,C002,Banana,Bengaluru,Chennai,350,7,2026-11-16
+R008,C003,Mango,Kochi,Bengaluru,550,10,2026-11-16
+R009,C004,Fish,Bengaluru,Chennai,350,7,2026-11-16
+R010,C005,Milk,Kochi,Bengaluru,550,10,2026-11-16
